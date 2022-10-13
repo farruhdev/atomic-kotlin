@@ -1,5 +1,13 @@
 package octobr11
 
+
+class Student(
+    val ID: Int,
+    val Name: String,
+    val Majority: String,
+){
+    fun Display()="My Name is $Name and My ID $ID, My Major is $Majority"
+}
 class Animals(
     val name: String,
     val eyes: Int,
@@ -18,8 +26,8 @@ fun main () {
         Animals("spider",50, 0, 8)
     println(zoo.describle())
     println(pest.describle())
-
-
+    val Student1=Student(20101001,"Farrux","Computer Science")
+    println(Student1.Display())
 }
 
 
