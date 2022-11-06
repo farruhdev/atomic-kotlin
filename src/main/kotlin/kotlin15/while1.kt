@@ -1,6 +1,5 @@
 package kotlin15
 
-package kotlin15
 
 fun condition(i: Int) = i < 100
 
