@@ -9,7 +9,6 @@ class MyClass(
     var name: String
 ){
     init {
-
         id = 20
         name = "Farrux"
         print("Init1: My id $id and my name $name")
